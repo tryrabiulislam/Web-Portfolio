@@ -1,9 +1,30 @@
 body{
     font-family: 'M PLUS 1', sans-serif;
+    margin: 0;
+}
+
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 h1{
     font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgray;
 }
 
 .half-width{
@@ -17,7 +38,40 @@ h1{
     width: 100%;
 }
 
-.name-heighlight{
+.hire-button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.tomato-heighlight{
     color: tomato;
 }
 
+.top-banner{
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.single-box{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+}
+
+.one-stack{
+    border-left: 7px solid;
+    border-image:  linear-gradient(#d53369, orange);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+}
